@@ -1,3 +1,10 @@
 import { connect } from 'react-redux';
 import Chart from '../components/Chart';
-// import { addCar } from '../redux/actions';
+
+const mapStateToProps = (state) => {
+  return {
+    cars: state.cars,
+  };
+};
+
+export default connect(mapStateToProps)(Chart);

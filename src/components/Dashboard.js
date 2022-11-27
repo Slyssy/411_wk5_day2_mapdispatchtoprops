@@ -8,7 +8,7 @@ import {
   TableRow,
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-import Chart from './Chart';
+import Chart from '../containers/Chart';
 import Total from '../containers/Total';
 //% Updated this import to reflect the container AddCar (mapDispatchToProps)
 import AddCar from '../containers/AddCar';
