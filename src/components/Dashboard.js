@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import Chart from './Chart';
-import Total from './Total';
+import Total from '../containers/Total';
 //% Updated this import to reflect the container AddCar (mapDispatchToProps)
 import AddCar from '../containers/AddCar';
 
